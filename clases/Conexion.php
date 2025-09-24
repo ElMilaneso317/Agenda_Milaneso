@@ -1,10 +1,10 @@
 <?php 
 class Conexion {
     public function conectar(){
-        $host = "127.0.0.1";
+        $host = "localhost";
         $usuario = "root"; // root
         $password = "";
-        $base = "agenda";
+        $base = "b191190067";
         $conexion = mysqli_connect($host, $usuario, $password, $base);
         return $conexion;
     }
